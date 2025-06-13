@@ -27,6 +27,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> GLASS_OAK_WOOD_FRAME = registerBlock("glass_oak_wood_frame",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
 
 
 
