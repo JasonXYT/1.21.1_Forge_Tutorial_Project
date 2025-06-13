@@ -20,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ALEXANDRITE.get());
                         pOutput.accept(ModItems.RAW_ALEXANDRITE.get());
+
+                        pOutput.accept(ModItems.CHISEL.get());
                     }))
 
                     .build());
